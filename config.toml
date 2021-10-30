@@ -1,4 +1,31 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://blog.tudorandrei.xyz'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme="papermod"
+title = "TudorAndrei's Blog"
+theme="cactus"
+[params]
+
+  colortheme = "dark" # dark, light, white, or classic
+  description = "Wellcome to my blog"
+[[params.social]]
+  name = "github"
+  link = "https://github.com/tudorandrei"
+
+[[params.social]]
+  name = "email"
+  link = "tudorandrei@gmail.com" # no need for "mailto:" at the start
+
+[[params.social]]
+  name = "linkedin"
+  link = "https://www.linkedin.com/in/dumitrascutudor/"
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
+
