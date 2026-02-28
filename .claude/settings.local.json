@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:coolify.io)",
+      "WebFetch(domain:beefb.one)"
+    ]
+  }
+}

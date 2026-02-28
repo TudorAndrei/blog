@@ -1,0 +1,9 @@
+#!/bin/sh
+echo "Building Hugo site..."
+hugo --minify
+
+git add public/
+
+if ! git diff --cached --quiet public/; then
+    git commit -m "build: update public"
+fi
