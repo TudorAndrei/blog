@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "WebFetch(domain:coolify.io)",
-      "WebFetch(domain:beefb.one)"
+      "WebFetch(domain:beefb.one)",
+      "WebFetch(domain:github.com)",
+      "Bash(git submodule:*)"
     ]
   }
 }

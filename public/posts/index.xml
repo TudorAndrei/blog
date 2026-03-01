@@ -1,5 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on TudorAndrei's Blog</title><link>https://blog.tudorandrei.xyz/posts/</link><description>Recent content in Posts on TudorAndrei's Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 09 May 2022 20:05:11 +0300</lastBuildDate><atom:link href="https://blog.tudorandrei.xyz/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Quickly generate RGB codes</title><link>https://blog.tudorandrei.xyz/posts/my-first-post/</link><pubDate>Mon, 09 May 2022 20:05:11 +0300</pubDate><guid>https://blog.tudorandrei.xyz/posts/my-first-post/</guid><description>&lt;p&gt;I needed to quickly generate a bunch of RGB hex codes. I also needed them to be available in the clipboard.&lt;/p&gt;
-&lt;p&gt;The best solution that I could find was to use &lt;a href="https://github.com/sharkdp/pastel"&gt;pastel&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The magic command is the following.&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;pastel random -n 1 | pastel format | xclip -sel clip
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Now put on a keybind, with something like i3 and you have a handy code at the stroke of a few buttons.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on TudorAndrei&#39;s Blog</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on TudorAndrei&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>TudorAndrei</copyright>
+    <lastBuildDate>Mon, 09 May 2022 20:05:11 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quickly generate RGB codes</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Mon, 09 May 2022 20:05:11 +0300</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;I needed to quickly generate a bunch of RGB hex codes. I also needed them to be available in the clipboard.&lt;/p&gt;&#xA;&lt;p&gt;The best solution that I could find was to use &lt;a href=&#34;https://github.com/sharkdp/pastel&#34;&gt;pastel&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The magic command is the following.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pastel random -n 1 | pastel format | xclip -sel clip&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now put on a keybind, with something like i3 and you have a handy code at the stroke of a few buttons.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

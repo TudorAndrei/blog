@@ -1,31 +1,51 @@
 baseURL = 'https://blog.tudorandrei.xyz'
 languageCode = 'en-us'
 title = "TudorAndrei's Blog"
-theme="cactus"
+theme = "archie"
+copyright = "TudorAndrei"
+
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[pagination]
+pagerSize = 5
+
 [params]
+  mode = "toggle"
+  description = "Welcome to my blog"
 
-  colortheme = "dark" # dark, light, white, or classic
-  description = "Wellcome to my blog"
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "All posts"
+  url = "/posts"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = 3
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags"
+  weight = 4
+
 [[params.social]]
-  name = "github"
-  link = "https://github.com/tudorandrei"
+  name = "GitHub"
+  icon = "github"
+  url = "https://github.com/tudorandrei"
 
 [[params.social]]
-  name = "email"
-  link = "tudorandrei@gmail.com" # no need for "mailto:" at the start
+  name = "Email"
+  icon = "mail"
+  url = "mailto:tudorandrei.dumitrascu@gmail.com"
 
 [[params.social]]
-  name = "linkedin"
-  link = "https://www.linkedin.com/in/dumitrascutudor/"
-[markup]
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ""
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = true
-    style = "monokai"
-    tabWidth = 4
-
+  name = "LinkedIn"
+  icon = "linkedin"
+  url = "https://www.linkedin.com/in/tudor-pythia/"
