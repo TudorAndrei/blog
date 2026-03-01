@@ -1,27 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>TudorAndrei&#39;s Blog</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on TudorAndrei&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <copyright>TudorAndrei</copyright>
-    <lastBuildDate>Sun, 01 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m an AI Engineer specializing in Deep Learning and automation. Currently at &lt;strong&gt;CogniSync&lt;/strong&gt;, building AI infrastructure for legal document processing — RAG systems, document parsing, and LLM-powered workflows. Previously co-founded &lt;strong&gt;Pythia Sociodynamical Technologies&lt;/strong&gt;, where I architected ML pipelines, distributed scrapers, and SaaS platforms for financial compliance.&lt;/p&gt;&#xA;&lt;p&gt;Feel free to &lt;a href=&#34;mailto:tudorandrei.dumitrascu@gmail.com&#34;&gt;reach out&lt;/a&gt; to chat about AI, tech, or potential collaborations.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Quickly generate RGB codes</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Mon, 09 May 2022 20:05:11 +0300</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;p&gt;I needed to quickly generate a bunch of RGB hex codes. I also needed them to be available in the clipboard.&lt;/p&gt;&#xA;&lt;p&gt;The best solution that I could find was to use &lt;a href=&#34;https://github.com/sharkdp/pastel&#34;&gt;pastel&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The magic command is the following.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pastel random -n 1 | pastel format | xclip -sel clip&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now put on a keybind, with something like i3 and you have a handy code at the stroke of a few buttons.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TudorAndrei's Blog</title><link>https://blog.tudorandrei.xyz/</link><description>Recent content on TudorAndrei's Blog</description><generator>Hugo</generator><language>en-us</language><copyright>TudorAndrei</copyright><lastBuildDate>Sun, 01 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.tudorandrei.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://blog.tudorandrei.xyz/about/</link><pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate><guid>https://blog.tudorandrei.xyz/about/</guid><description>&lt;p&gt;I&amp;rsquo;m an AI Engineer specializing in Deep Learning and automation. Currently at &lt;strong&gt;CogniSync&lt;/strong&gt;, building AI infrastructure for legal document processing — RAG systems, document parsing, and LLM-powered workflows. Previously co-founded &lt;strong&gt;Pythia Sociodynamical Technologies&lt;/strong&gt;, where I architected ML pipelines, distributed scrapers, and SaaS platforms for financial compliance.&lt;/p&gt;
+&lt;p&gt;Feel free to &lt;a href="mailto:tudorandrei.dumitrascu@gmail.com"&gt;reach out&lt;/a&gt; to chat about AI, tech, or potential collaborations.&lt;/p&gt;</description></item><item><title>Quickly generate RGB codes</title><link>https://blog.tudorandrei.xyz/posts/my-first-post/</link><pubDate>Mon, 09 May 2022 20:05:11 +0300</pubDate><guid>https://blog.tudorandrei.xyz/posts/my-first-post/</guid><description>&lt;p&gt;I needed to quickly generate a bunch of RGB hex codes. I also needed them to be available in the clipboard.&lt;/p&gt;
+&lt;p&gt;The best solution that I could find was to use &lt;a href="https://github.com/sharkdp/pastel"&gt;pastel&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The magic command is the following.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;pastel random -n 1 | pastel format | xclip -sel clip
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now put on a keybind, with something like i3 and you have a handy code at the stroke of a few buttons.&lt;/p&gt;</description></item></channel></rss>
