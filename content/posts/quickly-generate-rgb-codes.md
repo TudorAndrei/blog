@@ -1,6 +1,7 @@
 ---
 title: "Quickly generate RGB codes"
 date: 2022-05-09T20:05:11+03:00
+tags: ["linux", "cli", "tools"]
 ---
 
 I needed to quickly generate a bunch of RGB hex codes. I also needed them to be available in the clipboard.

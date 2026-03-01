@@ -1,7 +1,103 @@
-<!doctype html><html><head lang=en><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>TudorAndrei's Blog | Home</title><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Welcome to my blog"><meta property="og:image" content="https://blog.tudorandrei.xyz/"><link rel=alternate type=application/rss+xml href=https://blog.tudorandrei.xyz/index.xml title="TudorAndrei's Blog"><meta property="og:url" content="https://blog.tudorandrei.xyz/"><meta property="og:site_name" content="TudorAndrei's Blog"><meta property="og:title" content="TudorAndrei's Blog"><meta property="og:description" content="Welcome to my blog"><meta property="og:locale" content="en_us"><meta property="og:type" content="website"><meta name=twitter:card content="summary"><meta name=twitter:title content="TudorAndrei's Blog"><meta name=twitter:description content="Welcome to my blog"><link href=https://blog.tudorandrei.xyz/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css rel=stylesheet><link rel=stylesheet type=text/css media=screen href=https://blog.tudorandrei.xyz/css/main.a87126a5d38398207e58225b2d1a9faf97f546982f44b3ffb9715a264da36c90.css><link id=darkModeStyle rel=stylesheet type=text/css href=https://blog.tudorandrei.xyz/css/dark.f163b79c6de51d14a766ff9f0563053de7f06a4d1bf7b85a59608bf96e566710.css disabled></head><body><div class=content><header><div class=main><a href=https://blog.tudorandrei.xyz/>TudorAndrei's Blog</a></div><nav><a href=/>Home</a>
-<a href=/posts>All posts</a>
-<a href=/about>About</a>
-<a href=/tags>Tags</a>
-<button id=dark-mode-toggle class=nav-toggle onclick=toggleTheme() aria-label="Toggle dark mode" type=button><svg class="feather" viewBox="0 0 24 24" fill="none" stroke="#232333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button>
-<script src=https://blog.tudorandrei.xyz/js/themetoggle.js></script></nav></header><main class=list><div class=site-description></div><section class=list-item><h1 class=title><a href=/posts/my-first-post/>Quickly generate RGB codes</a></h1><time>May 9, 2022</time><br><div class=description><p>I needed to quickly generate a bunch of RGB hex codes. I also needed them to be available in the clipboard.</p><p>The best solution that I could find was to use <a href=https://github.com/sharkdp/pastel>pastel</a>.</p><p>The magic command is the following.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-fallback data-lang=fallback><span style=display:flex><span>pastel random -n 1 | pastel format | xclip -sel clip
-</span></span></code></pre></div><p>Now put on a keybind, with something like i3 and you have a handy code at the stroke of a few buttons.</p>&mldr;</div><a class=readmore href=/posts/my-first-post/>Read more ⟶</a></section></main><footer><div style=display:flex><a class=soc href=https://github.com/tudorandrei rel=me title=GitHub><svg class="feather"><use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#github"/></svg></a><a class=border></a><a class=soc href=mailto:tudorandrei.dumitrascu@gmail.com rel=me title=Email><svg class="feather"><use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#mail"/></svg></a><a class=border></a><a class=soc href=https://www.linkedin.com/in/tudor-pythia/ rel=me title=LinkedIn><svg class="feather"><use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#linkedin"/></svg></a><a class=border></a></div><div class=footer-info>2026 TudorAndrei | <a href=https://github.com/athul/archie>Archie Theme</a> | Built with <a href=https://gohugo.io>Hugo</a></div></footer></div></body></html>
+<!DOCTYPE html>
+<html>
+	<head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>TudorAndrei&#39;s Blog | Home </title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Welcome to my blog" />
+	<meta property="og:image" content="http://localhost:1313/"/>
+	<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="TudorAndrei's Blog" />
+	<meta property="og:url" content="http://localhost:1313/">
+  <meta property="og:site_name" content="TudorAndrei&#39;s Blog">
+  <meta property="og:title" content="TudorAndrei&#39;s Blog">
+  <meta property="og:description" content="Welcome to my blog">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="TudorAndrei&#39;s Blog">
+  <meta name="twitter:description" content="Welcome to my blog">
+
+        <link href="http://localhost:1313/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/main.a87126a5d38398207e58225b2d1a9faf97f546982f44b3ffb9715a264da36c90.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/css/dark.f163b79c6de51d14a766ff9f0563053de7f06a4d1bf7b85a59608bf96e566710.css"  disabled />
+</head>
+
+	<body>
+		<div class="content">
+			<header>
+	<div class="main">
+		<a href="http://localhost:1313/">TudorAndrei&#39;s Blog</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/posts">All posts</a>
+		
+		<a href="/about">About</a>
+		
+		<a href="/tags">Tags</a>
+		
+		<button id="dark-mode-toggle" class="nav-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode" type="button"><svg class="feather" viewBox="0 0 24 24" fill="none" stroke="#232333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg></button>
+		<script src="http://localhost:1313/js/themetoggle.js"></script>
+		
+	</nav>
+</header>
+
+			
+			<main class="list">
+				<div class="site-description"></div>
+				
+				
+				
+				<section class="list-item">
+					<h1 class="title"><a href="/posts/quickly-generate-rgb-codes/">Quickly generate RGB codes</a></h1>
+					<time>May 9, 2022</time>
+					<br><div class="description">
+	
+	<p>I needed to quickly generate a bunch of RGB hex codes. I also needed them to be available in the clipboard.</p>
+<p>The best solution that I could find was to use <a href="https://github.com/sharkdp/pastel">pastel</a>.</p>
+<p>The magic command is the following.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>pastel random -n 1 | pastel format | xclip -sel clip
+</span></span></code></pre></div><p>Now put on a keybind, with something like i3 and you have a handy code at the stroke of a few buttons.</p>&hellip;
+	
+</div>
+					<a class="readmore" href="/posts/quickly-generate-rgb-codes/">Read more ⟶</a>
+				</section>
+				
+				
+
+
+			</main>
+			<footer>
+  <div style="display:flex"><a class="soc" href="https://github.com/tudorandrei" rel="me" title="GitHub"><svg class="feather">
+       <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#github" />
+    </svg></a><a class="border"></a><a class="soc" href="mailto:tudorandrei.dumitrascu@gmail.com" rel="me" title="Email"><svg class="feather">
+       <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#mail" />
+    </svg></a><a class="border"></a><a class="soc" href="https://www.linkedin.com/in/tudor-pythia/" rel="me" title="LinkedIn"><svg class="feather">
+       <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#linkedin" />
+    </svg></a><a class="border"></a></div>
+  <div class="footer-info">
+    2026  TudorAndrei |  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
+</footer>
+
+
+		</div>
+		
+	</body>
+</html>
